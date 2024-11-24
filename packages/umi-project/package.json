@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "author": "luzhongkuan <luzhongkuan@xiaohongshu.com>",
+  "scripts": {
+    "dev": "BABEL_CACHE=none umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@umijs/max": "^4.3.34",
+    "@umijs/plugins": "^4.3.34",
+    "umi": "^4.3.34"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3",
+    "webpack": "5.75.0"
+  }
+}
